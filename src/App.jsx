@@ -54,7 +54,7 @@ function App() {
             data={downloadData()}
             style={{ fontSize: "12px" }}
             filename={"Products.csv"}
-            className="btn btn-sm btn-success mb-2"
+            className="btn btn-sm btn-light mb-2"
             target="_blank"
           >
             <i className="fa fa-download"></i> Download
@@ -62,7 +62,7 @@ function App() {
         )}
         <table
           style={{ fontSize: 10 }}
-          className="table table-condensed table-hover table-striped table-bordered"
+          className="table bg-white table-condensed table-hover table-striped table-bordered"
         >
           <thead>
             <tr>
